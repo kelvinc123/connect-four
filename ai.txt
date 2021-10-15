@@ -1,0 +1,9 @@
+1. I use the minimax algorithm for my ai. The algorithm assigns score for each board state, so the ai can calculate which next moves has the best score. The minimax algorithm also has a parameter depth to assign how far the ai looks into the future. Since it requires a lot of computation, I used alpha-beta pruning to reduce unnecessary computations. I made several levels for the ai since I can't win the one with the higher minimax depth. I also made the game so that it has the option to do computer vs. computer. That way, I can compare several algorithm, tweak the parameters, and pick the best one for this homework. Here is the reference that I got from piazza : https://www.youtube.com/watch?v=l-hh51ncgDI
+
+2. Yes, the level 4 computer is unbeatable if you set the ai to be "RED" (moves first).
+
+3. The ai looks at all the valid move and assigns each score to each moves. The ai will pick the moves with the highest score. The score is assigned with assumption that the opponents next move (after this move) will pick the moves that minimize our score. 
+
+4. I can beat level 1 or 2 ai easily since the strategy is only preventing player to get 4 consecutive chips. I can't beat level 4 ai.
+
+5. The weakness of this algorithm is that the ai assumes that the opponents will pick the best moves for them. Therefore, the ai will maximize the scores based on that assumption.
