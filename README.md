@@ -3,9 +3,9 @@
 Python implementation of connect four.
 
 ### Requirement
-processing 3
+ * processing 3
 
-### Config
+### Configuration
 see connect_four.pyde
 ```
 SIZE = (6, 7)
